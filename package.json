@@ -1,0 +1,31 @@
+{
+  "name": "ts-dyn2static-import-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahabhgk/ts-dyn2static-import-plugin.git"
+  },
+  "author": "ahabhgk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahabhgk/ts-dyn2static-import-plugin/issues"
+  },
+  "homepage": "https://github.com/ahabhgk/ts-dyn2static-import-plugin#readme",
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "typescript": "^4.1.2"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "files": [
+      "test/specs.ts"
+    ]
+  }
+}
